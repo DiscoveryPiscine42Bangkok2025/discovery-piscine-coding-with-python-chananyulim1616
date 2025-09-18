@@ -3,7 +3,7 @@ if num_input < 25:
     while True:
         print('Inside the loop, my variable is', num_input)
         num_input += 1
-        if num_input == 25:
+        if num_input > 25:
             break
 else:
     print('Error')
